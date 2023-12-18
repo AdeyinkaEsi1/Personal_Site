@@ -12,6 +12,6 @@ class MyResume(models.Model):
         education = models.TextField()
         experience = models.TextField()
         skills = models.TextField()
-        # languages = models.TextField()
+        languages = models.TextField()
         certifications = models.TextField()
         hobbies = models.TextField()
