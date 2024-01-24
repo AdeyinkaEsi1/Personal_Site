@@ -382,9 +382,10 @@ select:disabled {
 button,
 [type=button],
 [type=reset],
-[type=submit] {
-  -webkit-appearance: button;
-}
+[type=submit] 
+/* { */
+  /* -webkit-appearance: button; */
+/* } */
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -441,7 +442,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+  /* -webkit-appearance: textfield; */
 }
 
 /* rtl:raw:
@@ -462,7 +463,7 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
-  -webkit-appearance: button;
+  /* -webkit-appearance: button; */
 }
 
 output {
@@ -11561,7 +11562,7 @@ html {
 
 .text-gradient {
   background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 
